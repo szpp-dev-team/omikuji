@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.main {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.main .result {
+  height: 100px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.main .button {
+  width: 200px;
+  margin: 5px 0;
+  padding: 10px 0;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main .omikuji {
+  font-size: 18px;
+  background-color: #424242;
+}
+
+.main .share-twitter {
+  font-size: 14px;
+  background-color: #1976d2;
+}
