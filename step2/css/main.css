@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.main {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.main .result {
+  height: 100px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.main .button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #424242;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
