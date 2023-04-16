@@ -45,9 +45,9 @@ function omikuji() {
 
 function shareTwitter() {
   const result = document.getElementById("result").innerHTML;
-  url =
-    "http://twitter.com/share?text=結果は「" +
+  const url =
+    "https://twitter.com/intent/tweet?hashtags=SZPPおみくじ&text=結果は「" +
     result +
-    "」でした。%23SZPPおみくじ";
+    "」でした。";
   window.open(url, "_blank", "width=600,height=300");
 }
