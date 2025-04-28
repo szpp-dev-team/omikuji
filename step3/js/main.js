@@ -43,10 +43,10 @@ function omikuji() {
   document.getElementById("result").innerHTML = data[result].name;
 }
 
-function shareTwitter() {
+function shareX() {
   const result = document.getElementById("result").innerHTML;
   const url =
-    "https://twitter.com/intent/tweet?hashtags=SZPPおみくじ&text=結果は「" +
+    "https://x.com/intent/tweet?hashtags=SZPPおみくじ&text=結果は「" +
     result +
     "」でした。";
   window.open(url, "_blank", "width=600,height=300");
